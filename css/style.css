@@ -9,7 +9,7 @@ visited link color: #3d278f
 active link color: #EB0909
 */
 :root {
-  --primary-color: #e5e5e5;
+  --primary-color: #d6d6d6ee;
   --secondary-color: #64b8ab;
   --header-color: #646363;
   --link-color: #2c663a;
