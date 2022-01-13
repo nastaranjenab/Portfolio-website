@@ -16,7 +16,7 @@ visited link color: #3d278f
 active link color: #EB0909
 */
 body {
-  background-color:#e5e5e5;
+  background-color:#CECECE;
   font-family:'Oxygen', sans-serif;
   font-weight:300;
   font-size:16px;
@@ -34,9 +34,6 @@ a:hover, a:focus {
 }
 a:active {
   color:#EB0909;
-}
-a {
-color: #e5e5e5;
 }
 button {
   border: none;
@@ -137,11 +134,11 @@ p {
   background-color: rgb(102, 160, 146);
 }
 .grid__item:last-child {
-  -ms-grid-column: 3;
+  grid-column: 3;
       grid-column-start: 3;
   -ms-grid-column-span: 0;
   grid-column-end: 3;
-  -ms-grid-row: 1;
+  grid-row: 1;
       grid-row-start: 1;
   -ms-grid-row-span: 2;
   grid-row-end: 3;
