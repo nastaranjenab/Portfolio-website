@@ -18,7 +18,7 @@ active link color: #EB0909
   --primary-font: 'Oxygen', sans-serif;
   --font-weight: 300;
   --font-size: 16px;
-  --text-color: #000;
+  --text-color: rgb(255, 255, 255);
 }
  body {
     background-color:var(--primary-color);
@@ -125,7 +125,7 @@ button:hover, button:focus {
     grid-gap: 20px;
   }
   .grid__item {
-    background-color: rgb(102, 160, 146);
+    background-color: rgb(255, 255, 255);
   }
   .grid__item:last-child {
     grid-column-start: 3;
@@ -149,7 +149,7 @@ button:hover, button:focus {
       margin: 0;
     }
     .grid__item {
-      background-color: rgb(150, 150, 150);
+      background-color: rgb(0, 0, 0);
       width: auto;
       min-height: auto;
       margin: 0;
